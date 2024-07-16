@@ -1,0 +1,31 @@
+body {
+	background: linear-gradient(400deg, rgb(15, 15, 155), rgb(67, 67, 252), #56879e , #4cadbe, #3a5491, #56878d, rgb(0, 153, 255), rgb(67, 67, 252), rgb(15, 15, 155));
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 25%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.title {
+    margin-top: 150px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #962929, -1px 1px 0 #861c1c, 1px 1px 0 #000000;
+    font-size: 400%;
+    
+}
